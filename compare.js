@@ -40,7 +40,7 @@ Promise.all(promises)
             const index = output.findIndex(x=> x.title === item.title);
             if(index >= 0){
             // Compare 2 object
-            console.log('Compare: tile = '+item.title);
+            console.log('---------------------------------\nCompare: tile = '+item.title);
             const compare = jsonDiff.diffString(item,output[index]);
             if(compare.includes('{')){
                 console.log('Not match.\n\t(-) Input file\n\t(+) Ouput file');
@@ -50,9 +50,9 @@ Promise.all(promises)
                 console.log('\t==> Matched');
             }
         }
-        else{
-            console.log('Compare: tile = '+item.title);
-            console.log('\t==> Not found on Output.json file.');
+        else{ //if item in Input.json not found on Output.json
+            console.log('---------------------------------\nCompare: tile = '+item.title);
+            console.log('\t==> Not found on Output.json file.\n');
         }
         });
         
