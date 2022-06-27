@@ -43,7 +43,7 @@ Promise.all(promises)
             console.log('Compare: tile = '+item.title);
             const compare = jsonDiff.diffString(item,output[index]);
             if(compare.includes('{')){
-                console.log('Not matach.\n\t(-) Input file\n\t(+) Ouput file');
+                console.log('Not match.\n\t(-) Input file\n\t(+) Ouput file');
                 console.log(compare);
             }
             else {
