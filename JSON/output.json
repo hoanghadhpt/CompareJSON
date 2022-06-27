@@ -1,0 +1,12 @@
+{
+	"entry":[ {
+		"url": "/api-test-article-title",
+		"title": "[API_Test] Simple Article title 1"
+		
+	},
+	{
+		"url": "/api-test-article-titles",
+		"title": "[API_Test] Simple Article title 2"
+		
+	} ]
+}
