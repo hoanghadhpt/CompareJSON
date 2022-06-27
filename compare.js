@@ -3,7 +3,6 @@
 
 const fs = require('fs');
 var jsonDiff = require('json-diff');
-const { totalmem } = require('os');
 
 
 // Read json file with promise
@@ -35,13 +34,27 @@ const promises = [
 Promise.all(promises)
     .then(([input,output]) => {
 
-        // const result = output.entry.find(x => x.title === input.entry[0].title);
-        const result = output.entry.find(x => x.title === input.entry[0].title);
-        if(result){
-            console.log('Match title: '+input.entry[0].title);
+        // Load each entry of input
+        input.forEach(item => {
+            //Find title in output file
+            const index = output.findIndex(x=> x.title === item.title);
+            if(index >= 0){
+            // Compare 2 object
+            console.log('Compare: tile = '+item.title);
+            const compare = jsonDiff.diffString(item,output[index]);
+            if(compare.includes('{')){
+                console.log('Not matach.\n\t(-) Input file\n\t(+) Ouput file');
+                console.log(compare);
+            }
+            else {
+                console.log('\t==> Matched');
+            }
         }
         else{
-            console.log('Not found title in Output.json');
+            console.log('Compare: tile = '+item.title);
+            console.log('\t==> Not found on Output.json file.');
         }
+        });
+        
     }
 );

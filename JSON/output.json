@@ -1,12 +1,270 @@
-{
-	"entry":[ {
-		"url": "/api-test-article-title",
-		"title": "[API_Test] Simple Article title 1"
-		
-	},
-	{
-		"url": "/api-test-article-titles",
-		"title": "[API_Test] Simple Article title 2"
-		
-	} ]
-}
+[
+    {
+        "title": "Test Title 1",
+        "url": "/test-title-1",
+        "author_page": [],
+        "published_date": "2022-06-21T07:00:00.000Z",
+        "term_selector": {
+            "historyOfPrimaryTerm": ["lifestyle"],
+            "primaryTerm": "lifestyle",
+            "primaryTermInRealText": "Lifestyle",
+            "primaryCategoryBelonged": "lifestyle",
+            "secondaryTerm": ["garden"]
+        },
+        "series_taxonomy": [],
+        "keywords": [
+            {
+                "uid": "blt18fe421ac7e89910",
+                "_content_type_uid": "keyword"
+            }
+        ],
+        "summary": "New planters will feature design trends from recent years. ",
+        "at_a_glance": [],
+        "body": "body1",
+        "featured_image": {
+            "uid": "blt02d6a3a2411b0dcf",
+            "created_at": "2022-06-21T20:51:16.458Z",
+            "updated_at": "2022-06-21T20:51:16.458Z",
+            "created_by": "blt1f4a90798a4dc32e",
+            "updated_by": "blt1f4a90798a4dc32e",
+            "content_type": "image/png",
+            "file_size": "2189575",
+            "tags": [],
+            "filename": "62222Pantone.png",
+            "url": "https://eu-images.contentstack.com/v3/assets/blt781c383a1983f673/blt02d6a3a2411b0dcf/62b22f44ec26f179d6a20347/62222Pantone.png",
+            "ACL": [],
+            "is_dir": false,
+            "parent_uid": null,
+            "_version": 1,
+            "title": "62222Pantone.png"
+        },
+        "featured_image_caption": "Pantone planters available now at Woodlodge.",
+        "featured_image_credit": "Woodlodge",
+        "image_alt_text": "Pantone planters available now at Woolodge.",
+        "related_inline_content": [
+            {
+                "related_item": [
+                    {
+                        "uid": "blt5e0d085f2d3328ff",
+                        "_content_type_uid": "article"
+                    }
+                ],
+                "_metadata": {
+                    "uid": "cs42f2f4312f58d53c"
+                }
+            }, {
+                "related_item": [
+                    {
+                        "uid": "blt776514f290a508d7",
+                        "_content_type_uid": "article"
+                    }
+                ],
+                "_metadata": {
+                    "uid": "cs0f198a27b8309587"
+                }
+            }
+        ],
+        "old_url": "",
+        "seo": {
+            "meta_title": "Woodlodge Partners with Pantone",
+            "meta_description": "New planters will feature design trends from recent years. ",
+            "meta_keywords": "",
+            "canonical_url": "",
+            "no_index": false
+        },
+        "sponsored_content_settings": {
+            "sponsored_type": "Blank",
+            "sponsor_name": "",
+            "sponsor_url": "",
+            "sponsor_image": null
+        },
+        "related_events": [],
+        "locale": "en-us",
+        "uid": "bltfdf418cc94d2c231",
+        "created_by": "blt1f4a90798a4dc32e",
+        "updated_by": "blt1f4a90798a4dc32e",
+        "created_at": "2022-06-21T20:53:27.588Z",
+        "updated_at": "2022-06-23T00:36:39.755Z",
+        "_version": 3,
+        "tags": [],
+        "_in_progress": false
+    }, {
+        "title": "Test Title 2",
+        "url": "/test-title-2",
+        "author_page": [],
+        "published_date": "2022-06-21T07:00:00.000Z",
+        "term_selector": {
+            "historyOfPrimaryTerm": ["lifestyle"],
+            "primaryTerm": "lifestyle",
+            "primaryTermInRealText": "Lifestyle",
+            "primaryCategoryBelonged": "lifestyle",
+            "secondaryTerm": ["garden"]
+        },
+        "series_taxonomy": [],
+        "keywords": [
+            {
+                "uid": "blt18fe421ac7e89910",
+                "_content_type_uid": "keyword"
+            }
+        ],
+        "summary": "New planters will feature design trends from recent years. ",
+        "at_a_glance": [],
+        "body": "body1",
+        "featured_image": {
+            "uid": "blt02d6a3a2411b0dcf",
+            "created_at": "2022-06-21T20:51:16.458Z",
+            "updated_at": "2022-06-21T20:51:16.458Z",
+            "created_by": "blt1f4a90798a4dc32e",
+            "updated_by": "blt1f4a90798a4dc32e",
+            "content_type": "image/png",
+            "file_size": "2189575",
+            "tags": [],
+            "filename": "62222Pantone.png",
+            "url": "https://eu-images.contentstack.com/v3/assets/blt781c383a1983f673/blt02d6a3a2411b0dcf/62b22f44ec26f179d6a20347/62222Pantone.png",
+            "ACL": [],
+            "is_dir": false,
+            "parent_uid": null,
+            "_version": 1,
+            "title": "62222Pantone.png"
+        },
+        "featured_image_caption": "Pantone planters available now at Woodlodge.",
+        "featured_image_credit": "Woodlodge",
+        "image_alt_text": "Pantone planters available now at Woolodge.",
+        "related_inline_content": [
+            {
+                "related_item": [
+                    {
+                        "uid": "blt5e0d085f2d3328ff",
+                        "_content_type_uid": "article"
+                    }
+                ],
+                "_metadata": {
+                    "uid": "cs42f2f4312f58d53c"
+                }
+            }, {
+                "related_item": [
+                    {
+                        "uid": "blt776514f290a508d7",
+                        "_content_type_uid": "article"
+                    }
+                ],
+                "_metadata": {
+                    "uid": "cs0f198a27b8309587"
+                }
+            }
+        ],
+        "old_url": "",
+        "seo": {
+            "meta_title": "Woodlodge Partners with Pantone",
+            "meta_description": "New planters will feature design trends from recent years. ",
+            "meta_keywords": "",
+            "canonical_url": "",
+            "no_index": false
+        },
+        "sponsored_content_settings": {
+            "sponsored_type": "Blank",
+            "sponsor_name": "",
+            "sponsor_url": "",
+            "sponsor_image": null
+        },
+        "related_events": [],
+        "locale": "en-us",
+        "uid": "bltfdf418cc94d2c236",
+        "created_by": "blt1f4a90798a4dc32e",
+        "updated_by": "blt1f4a90798a4dc32e",
+        "created_at": "2022-06-21T20:53:27.588Z",
+        "updated_at": "2022-06-23T00:36:39.755Z",
+        "_version": 3,
+        "tags": [],
+        "_in_progress": false
+    }, {
+        "title": "Test Title 12",
+        "url": "/test-title-12",
+        "author_page": [],
+        "published_date": "2022-06-21T07:00:00.000Z",
+        "term_selector": {
+            "historyOfPrimaryTerm": ["lifestyle"],
+            "primaryTerm": "lifestyle",
+            "primaryTermInRealText": "Lifestyle",
+            "primaryCategoryBelonged": "lifestyle",
+            "secondaryTerm": ["garden"]
+        },
+        "series_taxonomy": [],
+        "keywords": [
+            {
+                "uid": "blt18fe421ac7e89910",
+                "_content_type_uid": "keyword"
+            }
+        ],
+        "summary": "New planters will feature design trends from recent years. ",
+        "at_a_glance": [],
+        "body": "body1",
+        "featured_image": {
+            "uid": "blt02d6a3a2411b0dcf",
+            "created_at": "2022-06-21T20:51:16.458Z",
+            "updated_at": "2022-06-21T20:51:16.458Z",
+            "created_by": "blt1f4a90798a4dc32e",
+            "updated_by": "blt1f4a90798a4dc32e",
+            "content_type": "image/png",
+            "file_size": "2189575",
+            "tags": [],
+            "filename": "62222Pantone.png",
+            "url": "https://eu-images.contentstack.com/v3/assets/blt781c383a1983f673/blt02d6a3a2411b0dcf/62b22f44ec26f179d6a20347/62222Pantone.png",
+            "ACL": [],
+            "is_dir": false,
+            "parent_uid": null,
+            "_version": 1,
+            "title": "62222Pantone.png"
+        },
+        "featured_image_caption": "Pantone planters available now at Woodlodge.",
+        "featured_image_credit": "Woodlodge",
+        "image_alt_text": "Pantone planters available now at Woolodge.",
+        "related_inline_content": [
+            {
+                "related_item": [
+                    {
+                        "uid": "blt5e0d085f2d3328ff",
+                        "_content_type_uid": "article"
+                    }
+                ],
+                "_metadata": {
+                    "uid": "cs42f2f4312f58d53c"
+                }
+            }, {
+                "related_item": [
+                    {
+                        "uid": "blt776514f290a508d7",
+                        "_content_type_uid": "article"
+                    }
+                ],
+                "_metadata": {
+                    "uid": "cs0f198a27b8309587"
+                }
+            }
+        ],
+        "old_url": "",
+        "seo": {
+            "meta_title": "Woodlodge Partners with Pantone",
+            "meta_description": "New planters will feature design trends from recent years. ",
+            "meta_keywords": "",
+            "canonical_url": "",
+            "no_index": false
+        },
+        "sponsored_content_settings": {
+            "sponsored_type": "Blank",
+            "sponsor_name": "",
+            "sponsor_url": "",
+            "sponsor_image": null
+        },
+        "related_events": [],
+        "locale": "en-us",
+        "uid": "bltfdf418cc94d2c236",
+        "created_by": "blt1f4a90798a4dc32e",
+        "updated_by": "blt1f4a90798a4dc32e",
+        "created_at": "2022-06-21T20:53:27.588Z",
+        "updated_at": "2022-06-23T00:36:39.755Z",
+        "_version": 3,
+        "tags": [],
+        "_in_progress": false
+    }
+]
