@@ -1,3 +1,3 @@
 *Draft: Compare title*
 
-Run script: <node compare.js>
+Run script: node compare.js
